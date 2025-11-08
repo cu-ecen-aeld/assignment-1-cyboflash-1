@@ -6,7 +6,7 @@
 # cmake .. && make && run the assignment-autotest application
 mkdir -p build
 cd build
-cmake ..
+CMAKE_POLICY_VERSION_MINIMUM=3.5 cmake ..
 make clean
 make
 cd ..
